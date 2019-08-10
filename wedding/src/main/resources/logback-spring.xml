@@ -11,7 +11,7 @@
     </appender>
 
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.dir}/log/customer_service.log</file>
+        <file>${user.dir}/log/log.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${user.dir}/log/log-%d{yyyy-MM-dd}.gz</fileNamePattern>
             <maxHistory>90</maxHistory>
